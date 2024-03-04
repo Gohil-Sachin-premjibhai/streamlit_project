@@ -1,4 +1,12 @@
 import streamlit as st
+import pandas as pd
+import numpy as np
+import altair as alt
+import seaborn as sns
+import plotly.express as px
+import plotly.figure_factory as ff
+import matplotlib.pyplot as plt
+
 
 st.title("ml project")
 st.header("diamond price prediction")
@@ -129,14 +137,6 @@ if audio_file:
     st.audio(audio_file.read())
 
 
-import streamlit as st
-import pandas as pd
-import numpy as np
-import altair as alt
-import seaborn as sns
-import plotly.express as px
-import plotly.figure_factory as ff
-
 
 df = sns.load_dataset('tips')
 
@@ -183,11 +183,7 @@ fig = ff.create_distplot(hist_data,group_labels,bin_size=[.1,.25,.5])
 st.plotly_chart(fig)
 
 
-import streamlit as st
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
+
 
 df = sns.load_dataset("iris")
 
