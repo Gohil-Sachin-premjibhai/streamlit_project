@@ -1,4 +1,4 @@
 streamlit==1.31.1
-seaborn
 plotly==5.9.0
 scipy==1.11.1
+seaborn
