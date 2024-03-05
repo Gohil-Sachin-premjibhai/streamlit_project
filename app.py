@@ -124,7 +124,7 @@ if upload_file:
 st.subheader("Dealing with images")
 upload_image=st.file_uploader("upload image file", type=['png','jpeg','jpg'])
 if upload_image:
-    st.image(upload_image.name)
+    st.image(upload_image)
 
 
 st.subheader("Dealing with videos")
