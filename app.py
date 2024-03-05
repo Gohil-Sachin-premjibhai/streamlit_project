@@ -6,6 +6,8 @@ import seaborn as sns
 import plotly.express as px
 import plotly.figure_factory as ff
 import matplotlib.pyplot as plt
+import warnings
+warnings.filterwarnings("ignore")
 
 
 st.title("ml project")
