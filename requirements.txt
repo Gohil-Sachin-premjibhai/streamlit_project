@@ -3,3 +3,4 @@ pandas
 numpy
 scipy
 plotly
+seaborn==0.11.2
